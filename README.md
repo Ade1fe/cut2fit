@@ -1,16 +1,27 @@
-# cut2fit
+# ✂️ Cut2Fit – Tailor Measurement App
 
-A new Flutter project.
+A simple Flutter app to help tailors manage clients and store body measurements locally using SQLite.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- Add, view, and delete clients  
+- Save detailed body measurements (e.g., chest, waist, sleeve)  
+- Local storage with SQLite (`sqflite`)  
+- Unique IDs with `uuid`  
+- Automatic cleanup of measurements when a client is deleted
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Built With
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter + Dart  
+- sqflite  
+- path  
+- uuid  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ⚙️ Getting Started
+
+```bash
+git clone https://github.com/Ade1fe/cut2fit.git
+cd cut2fit
+flutter pub get
+flutter run
+```
